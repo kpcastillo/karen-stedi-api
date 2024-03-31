@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prod-stedi-karen
-          image: us-west4-docker.pkg.dev/my-project-1st-416402/karen-api # This image needs to refer to the NEW Artifact registry repositorry
+          image: us-west4-docker.pkg.dev/my-project-1st-416402/karen-api/stedi-api # This image needs to refer to the NEW Artifact registry repositorry
           env:
             - name: REDIS_PASSWORD
               valueFrom:
