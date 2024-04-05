@@ -90,5 +90,5 @@ metadata:
   name: prod-stedi-karen-certificate # This needs to match line 68
 spec:
   domains:
-    - karen.cit262.com. # This is a DNS record that has not been created yet - we need to create that first
+    - karen.cit262.com # This is a DNS record that has not been created yet - we need to create that first
     
