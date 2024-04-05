@@ -31,7 +31,7 @@ spec:
 # The name of the container is specified below      
         - name: dev-stedi-karen
 # The image is a prebuilt file containing the operating system        
-          image: us-west4-docker.pkg.dev/my-project-1st-416402/karen-api:latest # IMAGE NEEDS TO BE ARTIFACT REGISTRY NEW REPOSITORY
+          image: us-docker.pkg.dev/my-project-1st-416402/karen-api/stedi-api:latest # IMAGE NEEDS TO BE ARTIFACT REGISTRY NEW REPOSITORY
           env:
             - name: REDIS_PASSWORD
               valueFrom:
